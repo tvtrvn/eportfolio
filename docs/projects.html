@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Projects — Thinh Tran</title>
+<meta name="description" content="Selected software projects by Thinh Tran, tagged with the Lassonde undergraduate competencies they demonstrate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="page-projects">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="wordmark" href="index.html">Thinh Tran<span class="wordmark-sub">ePortfolio</span></a>
+    <nav aria-label="Main">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="goals.html">Goals</a></li>
+        <li><a href="reflections.html">Reflections</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+<p class="eyebrow">E — Projects</p>
+<h1 id="projects">Projects</h1>
+<p class="lede">Selected work, each tagged with the Lassonde undergraduate competencies it demonstrates. A reflection is added to each project during the term.</p>
+
+<div class="card">
+<h3 id="ai-workflow-system-built-on-claude-code">AI Workflow System, built on Claude Code</h3>
+<p>The project I'm proudest of. It makes me feel like I can take on anything, and it keeps me caught up with a field that changes every week.</p>
+<p>A personal AI system I designed and direct. Its core is a job-application pipeline of 14 custom skills that analyzes a posting, tailors a resume, and fact-checks every claim against a verified record of my own experience. If the audit finds a claim it can't trace to evidence, the pipeline refuses to package the application. Hooks and a file-based memory carry rules and project state between sessions, and scheduled agents keep an application tracker up to date.</p>
+<p class="stack">Claude Code · custom skills · hooks · scheduled agents · Python</p>
+<p class="links">Private repository, walkthrough available on request.</p>
+<ul class="tags"><li>Use of Engineering Tools</li><li>Design</li><li>Life-Long Learning</li></ul>
+<p><strong>Why these tags:</strong> it's built by combining and configuring AI tooling; the fact-check gate is a design decision about how the system should fail; and I keep extending it as the tools change.</p>
+<div class="coming">
+<p>Reflection coming this term.</p>
+</div>
+</div>
+<div class="card">
+<h3 id="pho-ginger-online-ordering-platform">Pho Ginger Online Ordering Platform</h3>
+<p>A production ordering platform for a Toronto restaurant: a customer storefront and a private staff dashboard, built and maintained by me as the sole developer. It includes a self-serve menu manager so the owner can make changes without a developer, and it serves real customers every day.</p>
+<p class="stack">Next.js · React · TypeScript · MongoDB · Prisma · Redis · Vercel · Playwright</p>
+<p class="links"><a href="https://gingercuisine.ca">Live site</a> · <a href="https://github.com/tvtrvn/gingercuisine-app">Code on GitHub</a></p>
+<ul class="tags"><li>Design</li><li>Communication Skills</li><li>Professionalism</li></ul>
+<p><strong>Why these tags:</strong> I designed the whole system; I turned a non-technical owner's needs into a written requirements document; and it's real software that a business depends on.</p>
+<div class="coming">
+<p>Reflection coming this term.</p>
+</div>
+</div>
+<div class="card">
+<h3 id="portfolio-analytics-dashboard">Portfolio Analytics Dashboard</h3>
+<p>A full-stack analytics platform for four simulated investment portfolios. A NumPy engine computes 11 financial metrics from first principles (including Sharpe ratio, maximum drawdown, beta and value at risk), served through 18 REST endpoints over an 8-table PostgreSQL schema.</p>
+<p class="stack">React · TypeScript · Redux Toolkit · Python · FastAPI · PostgreSQL · NumPy</p>
+<p class="links"><a href="https://portfolio-analytics-dashboard-beta.vercel.app">Live site</a> · <a href="https://github.com/tvtrvn/portfolio-analytics-dashboard">Code on GitHub</a></p>
+<ul class="tags"><li>Knowledge Base for Engineering</li><li>Problem Analysis</li><li>Use of Engineering Tools</li></ul>
+<p><strong>Why these tags:</strong> every metric is implemented from its mathematical definition rather than a library call, and the data model came from working out which questions the dashboard has to answer.</p>
+<div class="coming">
+<p>Reflection coming this term.</p>
+</div>
+</div>
+<div class="card">
+<h3 id="historical-trade-scenario-simulator">Historical Trade Scenario Simulator</h3>
+<p>A simulator for "what if I had invested" questions: lump-sum and dollar-cost-averaging scenarios with benchmark comparisons, drawdown charts and a trade ledger. Market data falls back through three sources so it keeps working when a provider fails, and 76 automated tests cover the finance logic, security and data providers.</p>
+<p class="stack">React · TypeScript · Python · FastAPI · PostgreSQL · Docker · GitHub Actions</p>
+<p class="links"><a href="https://historical-trade-sim.vercel.app">Live site</a> · <a href="https://github.com/tvtrvn/historical-trade-sim">Code on GitHub</a></p>
+<ul class="tags"><li>Design</li><li>Investigation</li><li>Use of Engineering Tools</li></ul>
+<p><strong>Why these tags:</strong> the fallback chain was designed around how real data providers fail, and the test suite is how I prove the numbers are right.</p>
+<div class="coming">
+<p>Reflection coming this term.</p>
+</div>
+</div>
+<div class="coming">
+<p><strong>Course projects:</strong> group coursework, such as my EECS 3311 Software Design project, will be added only with my teammates' written permission.</p>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p><strong>Thinh Tran</strong> · <a href="mailto:thinhvt99@gmail.com">thinhvt99@gmail.com</a></p>
+    <p class="updated">Last updated September 26, 2026</p>
+    <p><a class="home-link" href="index.html">&larr; Home</a></p>
+  </div>
+</footer>
+</body>
+</html>

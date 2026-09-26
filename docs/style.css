@@ -1,0 +1,165 @@
+/* Thinh Tran — ePortfolio. One stylesheet, one type family (+ mono for labels), one accent. */
+:root {
+  --bg: #fbfbfc;
+  --surface: #ffffff;
+  --ink: #15181d;
+  --muted: #555d6b;
+  --rule: #e4e7ec;
+  --accent: #1d4ed8;
+  --accent-soft: #eef3ff;
+  --radius: 10px;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+.wrap { max-width: 46rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+a { color: var(--accent); text-underline-offset: 0.18em; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+.skip {
+  position: absolute; left: -999px; top: 0.5rem;
+  background: var(--ink); color: #fff; padding: 0.5rem 0.75rem; border-radius: 6px;
+}
+.skip:focus { left: 0.5rem; }
+
+/* ---------- header ---------- */
+.site-header { border-bottom: 1px solid var(--rule); background: var(--surface); }
+.header-row {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 0.75rem 1.5rem; padding-block: 1rem;
+}
+.wordmark {
+  color: var(--ink); text-decoration: none; font-weight: 700; font-size: 1.125rem;
+  display: flex; align-items: baseline; gap: 0.5rem;
+}
+.wordmark-sub { font-family: var(--mono); font-weight: 400; font-size: 0.75rem; color: var(--muted); }
+.nav { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem; }
+.nav a { color: var(--muted); text-decoration: none; font-size: 0.95rem; padding-block: 0.25rem; display: inline-block; }
+.nav a:hover { color: var(--ink); }
+.nav a[aria-current="page"] { color: var(--ink); font-weight: 600; box-shadow: inset 0 -2px 0 var(--accent); }
+
+/* ---------- page type ---------- */
+main { padding-block: 2.75rem 4rem; }
+.eyebrow {
+  font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--accent); margin: 0 0 0.5rem;
+}
+h1 { font-size: clamp(2rem, 1.4rem + 2.6vw, 2.75rem); line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 0.75rem; }
+h2 {
+  font-size: 1.45rem; line-height: 1.3; letter-spacing: -0.01em;
+  margin: 2.75rem 0 0.75rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+}
+h3 { font-size: 1.125rem; line-height: 1.35; margin: 1.75rem 0 0.35rem; }
+p, ul, ol { margin: 0 0 1rem; }
+li { margin-bottom: 0.35rem; }
+.lede { font-size: 1.2rem; color: var(--muted); max-width: 38rem; }
+strong { font-weight: 600; }
+
+/* ---------- home ---------- */
+.purpose {
+  background: var(--surface); border: 1px solid var(--rule); border-left: 4px solid var(--accent);
+  border-radius: var(--radius); padding: 1.1rem 1.25rem; margin: 1.75rem 0;
+}
+.purpose p:last-child { margin-bottom: 0; }
+.label { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.35rem; }
+
+.toc { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 0.75rem; }
+.toc li { margin: 0; }
+.toc a {
+  display: block; text-decoration: none; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: 0.95rem 1.15rem; transition: border-color 0.15s ease;
+}
+.toc a:hover { border-color: var(--accent); }
+.toc .toc-title { display: block; font-weight: 600; color: var(--accent); }
+.toc .toc-desc { display: block; color: var(--muted); font-size: 0.95rem; }
+
+.status { font-family: var(--mono); font-size: 0.85rem; color: var(--muted); margin-top: 1.25rem; }
+
+/* ---------- entries (career) ---------- */
+.entry { margin: 1.5rem 0 1.75rem; }
+.entry-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.1rem 1rem; align-items: baseline; }
+.entry-head h3 { margin: 0; }
+.entry-meta { font-family: var(--mono); font-size: 0.82rem; color: var(--muted); white-space: nowrap; }
+.entry-org { color: var(--muted); margin: 0.1rem 0 0.5rem; }
+.entry ul { padding-left: 1.2rem; }
+.accomplishment { background: var(--accent-soft); border-radius: 8px; padding: 0.55rem 0.8rem; font-size: 0.97rem; }
+
+/* ---------- cards (projects, portfolios) ---------- */
+.card {
+  background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: 1.25rem 1.35rem; margin: 1.25rem 0;
+}
+.card h3 { margin-top: 0; }
+.card > :last-child { margin-bottom: 0; }
+.links { font-size: 0.95rem; }
+.stack { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); }
+
+.tags { list-style: none; padding: 0; margin: 0.25rem 0 0.75rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.tags li {
+  margin: 0; font-family: var(--mono); font-size: 0.75rem; color: var(--accent);
+  background: var(--accent-soft); border-radius: 999px; padding: 0.2rem 0.65rem;
+}
+
+.coming {
+  border: 1px dashed #c3c9d3; border-radius: var(--radius); padding: 0.8rem 1rem;
+  color: var(--muted); font-size: 0.95rem; background: transparent;
+}
+.coming p:last-child { margin-bottom: 0; }
+
+/* ---------- tables ---------- */
+.table-scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.95rem; margin: 0.5rem 0 1.25rem; }
+th, td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-weight: 600; }
+
+/* ---------- footer ---------- */
+.site-footer { border-top: 1px solid var(--rule); background: var(--surface); }
+.footer-row {
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.25rem 1.5rem;
+  padding-block: 1.25rem; font-size: 0.92rem; color: var(--muted);
+}
+.footer-row p { margin: 0; }
+.footer-row strong { color: var(--ink); }
+
+/* ---------- small screens ---------- */
+@media (max-width: 560px) {
+  body { font-size: 1rem; }
+  main { padding-block: 2rem 3rem; }
+  .entry-meta { white-space: normal; }
+}
+
+/* ---------- print (resume PDF) ---------- */
+.print-only { display: none; }
+@media print {
+  @page { margin: 12mm 14mm; }
+  html { font-size: 9.5pt; }
+  body { background: #fff; font-size: 1rem; line-height: 1.42; }
+  .site-header, .site-footer, .skip, .no-print, .eyebrow { display: none !important; }
+  .print-only { display: block; }
+  main { padding: 0; max-width: none; }
+  h1 { font-size: 2rem; margin-bottom: 0.2rem; }
+  h2 { font-size: 1.25rem; margin: 1rem 0 0.4rem; padding-top: 0.5rem; break-after: avoid; }
+  h3 { font-size: 1.05rem; margin-top: 0.6rem; }
+  p, ul { margin-bottom: 0.45rem; }
+  li { margin-bottom: 0.15rem; }
+  .entry { margin: 0.7rem 0; }
+  .entry-head { break-after: avoid; }
+  .entry-org { margin-bottom: 0.25rem; }
+  .accomplishment { background: none; padding: 0; font-size: 1rem; }
+  th, td { padding: 0.25rem 0.4rem; font-size: 1rem; }
+  a { color: var(--ink); text-decoration: none; }
+}
