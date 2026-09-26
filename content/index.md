@@ -23,4 +23,6 @@ This ePortfolio documents my professional development during my first co-op work
 <li><a href="projects.html"><span class="toc-title">E — Projects</span><span class="toc-desc">Selected software projects, each tagged with the Lassonde competencies it demonstrates</span></a></li>
 </ul>
 
+**How it's organized:** each project or piece of work is an **artifact**; each artifact gets a **reflection** on what it taught me; and related artifacts and reflections are grouped into **collections**, the portfolios under each goal.
+
 <p class="status">Built across the Fall 2026 term: started September 2026, final version December 2026.</p>
