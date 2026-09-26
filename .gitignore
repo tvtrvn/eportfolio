@@ -1,2 +1,7 @@
 __pycache__/
 .DS_Store
+# local tooling (GitNexus index + its generated agent files) — never publish
+.gitnexus/
+.claude/
+AGENTS.md
+CLAUDE.md
