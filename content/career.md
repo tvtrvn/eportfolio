@@ -46,6 +46,18 @@ thinhvt99@gmail.com · linkedin.com/in/thinh-tran111 · github.com/tvtrvn · Tor
 </div>
 
 <div class="entry" markdown="1">
+<div class="entry-head"><h3>Florida Expansion &amp; Search Console Optimization</h3><span class="entry-meta">Jul 2026 – Sep 2026</span></div>
+<p class="entry-org">Swimingo (via Riipen Level UP) · Remote · paid work-integrated learning project, 60 hours</p>
+
+- Built the swim-lesson company's first Florida presence on Google: eight pages live (a Florida hub, five town pages and two instructor-recruitment pages), with six more built and submitted for review.
+- Used Google Search Console to find and fix problems in how the site presents itself to Google, including conflicting "official address" (canonical) tags that split search traffic across two web addresses.
+- Added an automated check of page titles and descriptions to the site's build, so broken metadata can't ship.
+- Wrote the final report for the business owner, with every number reproducible from the raw Search Console data.
+
+<p class="accomplishment"><strong>Key accomplishment:</strong> took the <a href="https://www.swimingo.com/swim-lessons/fl">Florida pages</a> from zero to 310 Google search impressions, with every live Florida lesson page indexed and one town reaching Google's first page, and cut the share of impressions going to the wrong web address from 17.5% to 6.9%.</p>
+</div>
+
+<div class="entry" markdown="1">
 <div class="entry-head"><h3>Full Stack Developer (On Call)</h3><span class="entry-meta">Mar 2026 – Present</span></div>
 <p class="entry-org">Pho Ginger · Toronto, ON</p>
 

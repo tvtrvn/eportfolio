@@ -158,7 +158,8 @@ th { font-weight: 600; }
   li { margin-bottom: 0.15rem; }
   .entry { margin: 0.7rem 0; }
   .entry-head { break-after: avoid; }
-  .entry-org { margin-bottom: 0.25rem; }
+  .entry-org { margin-bottom: 0.25rem; break-after: avoid; }
+  .entry ul { break-before: avoid; }
   .accomplishment { background: none; padding: 0; font-size: 1rem; }
   th, td { padding: 0.25rem 0.4rem; font-size: 1rem; }
   a { color: var(--ink); text-decoration: none; }

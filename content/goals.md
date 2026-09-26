@@ -50,7 +50,7 @@ What drives how I work.
 
 Evidence of what I've done so far.
 
-- **Experience:** a co-op term at Groupe Bel Canada, a live ordering platform for Pho Ginger, a technical lead role on a Riipen Labs project, and inventory work at Aritzia. Details on the [Career page](career.html#experience).
+- **Experience:** a co-op term at Groupe Bel Canada, a Florida search-expansion project for Swimingo, a live ordering platform for Pho Ginger, a technical lead role on a Riipen Labs project, and inventory work at Aritzia. Details on the [Career page](career.html#experience).
 - **Projects:** four selected builds on the [Projects page](projects.html).
 - **Certifications:** Mastering Design Patterns with Java and Spring Boot REST API with Java &amp; Gradle (CodeSignal, 2026).
 </div>
