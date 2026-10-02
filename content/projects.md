@@ -45,7 +45,7 @@ A production ordering platform for a Toronto restaurant: a customer storefront a
 A full-stack analytics platform for four simulated investment portfolios. A NumPy engine computes 11 financial metrics from first principles (including Sharpe ratio, maximum drawdown, beta and value at risk), served through 18 REST endpoints over an 8-table PostgreSQL schema.
 
 <p class="stack">React · TypeScript · Redux Toolkit · Python · FastAPI · PostgreSQL · NumPy</p>
-<p class="links"><a href="https://portfolio-analytics-dashboard-beta.vercel.app">Live site</a> · <a href="https://github.com/tvtrvn/portfolio-analytics-dashboard">Code on GitHub</a></p>
+<p class="links"><a href="https://github.com/tvtrvn/portfolio-analytics-dashboard">Code on GitHub</a></p>
 
 <ul class="tags"><li>Knowledge Base for Engineering</li><li>Problem Analysis</li><li>Use of Engineering Tools</li></ul>
 

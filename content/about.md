@@ -7,7 +7,7 @@ description: About Thinh Tran: Computer Science student at York University, co-o
 
 <p class="lede">Computer Science student, co-op intern, and builder, working toward a career in software and AI.</p>
 
-I'm Thinh Tran, a Computer Science (Honours) student at York University's Lassonde School of Engineering, currently on my first co-op term as a Learning Content &amp; AI Enablement Intern at Groupe Bel Canada. I didn't arrive at computer science in a straight line: it took trying a few different paths before I found work I genuinely wanted to do. What I found was building things. I learn best by taking real projects from an idea all the way to something people can use. The one I'm proudest of is the AI workflow system I built for myself, described on my [Projects page](projects.html).
+I'm Thinh Tran, a Computer Science (Honours) student at York University's Lassonde School of Engineering, currently on my first co-op term as a Learning Technology &amp; AI Enablement Intern at Groupe Bel Canada. I didn't arrive at computer science in a straight line: it took trying a few different paths before I found work I genuinely wanted to do. What I found was building things. I learn best by taking real projects from an idea all the way to something people can use. The one I'm proudest of is the AI workflow system I built for myself, described on my [Projects page](projects.html).
 
 ## At a glance
 
@@ -16,8 +16,8 @@ I'm Thinh Tran, a Computer Science (Honours) student at York University's Lasson
 | | |
 |---|---|
 | **Program** | Bachelor of Arts, Computer Science (Honours), Lassonde School of Engineering, York University |
-| **Expected graduation** | December 2027 |
-| **Co-op term** | Learning Content &amp; AI Enablement Intern, Groupe Bel Canada, July to December 2026 |
+| **Expected graduation** | 2027 |
+| **Co-op term** | Learning Technology &amp; AI Enablement Intern, Groupe Bel Canada, July to December 2026 |
 | **Career goal** | Software engineer / developer, working in AI |
 | **Languages** | English, French (fluent), Vietnamese |
 | **Based in** | Toronto, Ontario |

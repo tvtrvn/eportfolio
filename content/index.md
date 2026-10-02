@@ -5,7 +5,7 @@ description: ePortfolio of Thinh Tran, Computer Science student at York Universi
 ---
 # Thinh Tran
 
-<p class="lede">Computer Science (Honours) student at York University's Lassonde School of Engineering, and Learning Content &amp; AI Enablement Intern at Groupe Bel Canada.</p>
+<p class="lede">Computer Science (Honours) student at York University's Lassonde School of Engineering, and Learning Technology &amp; AI Enablement Intern at Groupe Bel Canada.</p>
 
 <div class="purpose" markdown="1">
 <p class="label">Purpose of this ePortfolio</p>
