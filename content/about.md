@@ -16,7 +16,7 @@ I'm Thinh Tran, a Computer Science (Honours) student at York University's Lasson
 | | |
 |---|---|
 | **Program** | Bachelor of Arts, Computer Science (Honours), Lassonde School of Engineering, York University |
-| **Expected graduation** | 2027 |
+| **Expected graduation** | 2028 |
 | **Co-op term** | Learning Technology &amp; AI Enablement Intern, Groupe Bel Canada, July to December 2026 |
 | **Career goal** | Software engineer / developer, working in AI |
 | **Languages** | English, French (fluent), Vietnamese |

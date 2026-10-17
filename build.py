@@ -23,6 +23,7 @@ OUT = ROOT / "docs"
 PAGES = [
     ("index", "index.html"),
     ("about", "about.html"),
+    ("why-me", "why-me.html"),
     ("career", "career.html"),
     ("goals", "goals.html"),
     ("reflections", "reflections.html"),
@@ -108,6 +109,8 @@ def build():
         ), encoding="utf-8")
 
     shutil.copy(ROOT / "style.css", OUT / "style.css")
+    if (ROOT / "media").exists():  # video, captions, poster (docs/ is rebuilt from scratch every time)
+        shutil.copytree(ROOT / "media", OUT / "media")
     (OUT / ".nojekyll").write_text("")  # serve files as-is on GitHub Pages
 
     # The PDF resume is the Career page printed with its print stylesheet, so the two never drift.

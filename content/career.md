@@ -18,7 +18,7 @@ thinhvt99@gmail.com · linkedin.com/in/thinh-tran111 · github.com/tvtrvn · Tor
 ## Education
 
 <div class="entry" markdown="1">
-<div class="entry-head"><h3>York University, Lassonde School of Engineering</h3><span class="entry-meta">Sep 2024 – 2027 (expected)</span></div>
+<div class="entry-head"><h3>York University, Lassonde School of Engineering</h3><span class="entry-meta">Sep 2024 – 2028 (expected)</span></div>
 <p class="entry-org">Bachelor of Arts, Computer Science (Honours) · Toronto, ON</p>
 
 **Courses completed:** Computer Organization · Fundamentals of Data Structures · Software Design · Introduction to Database Systems · Software Tools · Professional Practice in Computing · Advanced Object-Oriented Programming · Introduction to the Theory of Computation · Introduction to Computer Science and Programming · Research Directions in Computing · Discrete Mathematics for Computer Science · Introduction to Logic for Computer Science · Applied Linear Algebra · Integral Calculus with Applications · Elementary Probability

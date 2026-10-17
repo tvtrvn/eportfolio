@@ -164,3 +164,8 @@ th { font-weight: 600; }
   th, td { padding: 0.25rem 0.4rem; font-size: 1rem; }
   a { color: var(--ink); text-decoration: none; }
 }
+
+/* ---------- video ---------- */
+.video { margin: 1.5rem 0 2rem; }
+.video video { width: 100%; height: auto; display: block; border-radius: var(--radius); background: #000; box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 12px 32px rgba(0,0,0,.10); }
+.video figcaption { color: var(--muted); font-size: 0.9rem; margin-top: 0.6rem; }

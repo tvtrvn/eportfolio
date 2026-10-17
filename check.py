@@ -18,7 +18,7 @@ import urllib.request
 
 DOCS = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else pathlib.Path(__file__).parent / "docs")
 PERSONAL = pathlib.Path.home() / "Desktop/WORKSPACE/JobSearch/career_truth/sections/01_personal.md"
-PAGES = ["index.html", "about.html", "career.html", "goals.html", "reflections.html", "projects.html"]
+PAGES = ["index.html", "about.html", "why-me.html", "career.html", "goals.html", "reflections.html", "projects.html"]
 ALLOWED_WORDS = set("""
 thinh tran eportfolio york lassonde coop le bel groupe canada pho ginger gingercuisine aritzia
 upnxxt riipen codesignal github linkedin netlify vercel mongodb prisma redis postgresql sqlite numpy
@@ -35,7 +35,7 @@ weightlifting coursework multi honours centre gradle teammates didn
 class Collect(html.parser.HTMLParser):
     def __init__(self):
         super().__init__()
-        self.links, self.ids, self.text, self._skip = [], set(), [], 0
+        self.links, self.ids, self.text, self._skip, self.media = [], set(), [], 0, []
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
@@ -43,6 +43,9 @@ class Collect(html.parser.HTMLParser):
             self.ids.add(a["id"])
         if tag == "a" and "href" in a:
             self.links.append(a["href"])
+        for key in ("src", "poster"):  # video, captions, poster, images must exist too
+            if tag in ("video", "source", "track", "img") and key in a:
+                self.media.append(a[key])
         if tag in ("script", "style"):
             self._skip += 1
 
@@ -112,6 +115,11 @@ def main():
             manual.append(url)
         elif code != 200:
             failures.append(f"EXTERNAL LINK {code}: {url}")
+
+    for name, c in parsed.items():
+        for src in c.media:
+            if not src.startswith(("http://", "https://")) and not (DOCS / src).exists():
+                failures.append(f"MISSING MEDIA: {name} -> {src}")
 
     # 4. structure the manual requires on every page
     for name, c in parsed.items():
