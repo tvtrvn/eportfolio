@@ -35,7 +35,7 @@ thinhvt99@gmail.com · linkedin.com/in/thinh-tran111 · github.com/tvtrvn · Tor
 
 <div class="entry" markdown="1">
 <div class="entry-head"><h3>Learning Technology &amp; AI Enablement Intern</h3><span class="entry-meta">Jul 2026 – Present</span></div>
-<p class="entry-org">Groupe Bel Canada · Mississauga, ON (hybrid) · Co-op work term</p>
+<p class="entry-org">Groupe Bel Canada · Mississauga, ON (remote) · Co-op work term</p>
 
 - Produce interactive e-learning modules and quizzes for the company's internal learning academy.
 - Edit and rebuild training videos for internal learning programs.
