@@ -38,7 +38,7 @@ What I'm drawn to, and what I can already do.
 
 What drives how I work.
 
-- **What I've noticed so far:** I'm efficient and adaptable. More on how I work on my [About Me page](about.html#how-i-work).
+- **What I've noticed so far:** I'm efficient and adaptable. More on how I work on my [About Me page](about.html#what-i-bring-to-an-employer).
 
 <div class="coming" markdown="1">
 **Added this term:** my values assessment (Week 2), how my learning style applies at work (Week 5), and my emotional intelligence results with a reflection (Week 7).

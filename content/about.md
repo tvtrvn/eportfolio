@@ -7,7 +7,7 @@ description: About Thinh Tran: Computer Science student at York University, co-o
 
 <p class="lede">Computer Science student, co-op intern, and builder, working toward a career in software and AI.</p>
 
-I'm Thinh Tran, a Computer Science (Honours) student at York University's Lassonde School of Engineering, currently on my first co-op term as a Learning Technology &amp; AI Enablement Intern at Groupe Bel Canada. I didn't arrive at computer science in a straight line: it took trying a few different paths before I found work I genuinely wanted to do. What I found was building things. I learn best by taking real projects from an idea all the way to something people can use. The one I'm proudest of is the AI workflow system I built for myself, described on my [Projects page](projects.html).
+My name is Thinh Tran. I am a Computer Science (Honours) co-op student at York University's Lassonde School of Engineering, graduating in 2028, and I am on my first co-op term as a Learning Technology and AI Enablement Intern at Groupe Bel Canada. I want to become a software engineer working in AI. The different mix of experiences and background is what makes me unique. I speak English, French and Vietnamese. I switched into Computer Science from media, and previously nursing, so I have a mix of experience in editing videos and coding. I also love building AI tools for myself. Outside school and work, I lift weights, play basketball, volleyball and badminton, rock climb, and love to cook.
 
 ## At a glance
 
@@ -24,13 +24,79 @@ I'm Thinh Tran, a Computer Science (Honours) student at York University's Lasson
 
 </div>
 
-## Career goals
+## My story
 
-I want to work as a software engineer or developer in AI. This co-op term is my first experience at a global-scale company doing real work in my field, and I want to leave it having shown that I can adapt quickly and deliver efficiently wherever I'm placed.
+I was born and raised in Toronto, and my days were split between three languages. At four, I started French immersion, and I stayed in it until I graduated with a bilingual diploma. I speak Vietnamese at home, French at school, and English with friends. Switching between them every day taught me early that languages open doors.
 
-## How I work
+When I was eight, I made a new friend in school who would later be the cornerstone of my career direction. I tell his story below, but the short version is that he started with very little and worked his way into software engineering. He inspired me by showing how I could end up going big.
 
-The clearest thing my first weeks on this co-op have taught me about myself is that I'm efficient and adaptable. The job has asked me to move between very different kinds of work, and I've been able to keep delivering across all of them.
+I started university in nursing at Western University in 2021. It wasn't the right fit and was a very confusing and low time for me. I spent the next year in media studies, where I edited my own short film, and in 2023 I took a big risk and switched into computer science. My friend knew I loved creating and exploring and valued time, and his perseverance pushed me to bet on what I loved and pursue a different sector. In 2024, I transferred to York University to continue in computer science while living at home.
+
+Starting late meant catching up, so I took a summer course, built projects outside class and studied every day, the way I had watched my friend do it. My grades went up, and in 2026 I shipped the online ordering website for my family's Vietnamese restaurant, which real customers use every day.
+
+That summer, I started my first co-op term at Groupe Bel Canada. It was not the pure software role I had aimed for, but it showed me that I am efficient and adaptable. In October 2026, my job flew me to Paris to deliver a Microsoft Copilot workshop to the team in person, and it went as well as I could have ever imagined. Next, I am looking for a Summer 2027 co-op in software engineering, the career I am working toward. My story keeps teaching me the same two things: it is OK to take risks and start over, and hard work gets noticed.
+
+## My Why Me video
+
+<figure class="video">
+<video controls playsinline preload="metadata" poster="media/why-me-poster.jpg" width="1920" height="1080">
+<source src="media/why-me.mp4" type="video/mp4">
+<track kind="captions" src="media/why-me.vtt" srclang="en" label="English" default>
+</video>
+<figcaption>Voice and clips recorded in Paris during a work trip, October 2026. Structured with the Pixar Pitch from LE/COOP 2100, Module 4. More on the <a href="why-me.html">Why Me page</a>.</figcaption>
+</figure>
+
+## Where I come from, and how I got here
+
+My story starts in Toronto, where I was born and raised, and growing up here shaped who I am. A normal day meant French at school, Vietnamese at home and English with my friends. Switching between three languages and three settings every day made me adaptable. Playing on sports teams taught me to work with and help others. The people around me, including the friend I met at eight, taught me that effort is what gets results. Growing up, I also got used to working things out on my own. I never thought I'd have the chance to really utilize my French until I was in Paris for work and found out how fluent I actually am.
+
+My path wasn't the traditional one after I left high school. I spent three years at Western University: a year in nursing, a year in media studies and a year in computer science. When I decided to transfer in 2024, it was due to financial pressures, and York allowed me to move back home and keep the cost of my degree down. I chose computer science, rather than an engineering discipline such as software or electrical engineering, for four reasons. It gives me room to create and explore, which I love. It leads toward software and AI, where I want my career to go. It is the path my friend took, so I had already seen where it can lead. And it let my credits from my year of computer science at Western carry over.
+
+That friend is my inspiration. He is not a teacher or a parent but someone I have known since elementary school, where we first met and quickly became lifelong best friends. I will not name him here, but his story is a big part of why I study computer science. His parents were immigrants without much, and he struggled in school. When he got to university, he dove deep into his studies and worked every day on projects of his own, just to get noticed. Today he is a senior software engineer at one of Canada's biggest banks, and he got there without connections. What I admire most is his perseverance. He went from zero to hero, even though he had struggled previously, academically and financially. He also knew me well: he saw that I loved creating and exploring, and that is part of why I followed him into computer science. From him I learned that where you start does not decide where you end up, and I put that lesson to work when I had to catch up after switching programs.
+
+Two strengths will help me succeed at York. I learn by building: I caught up in computer science through projects outside class, not only through lectures. And I can turn what non-technical people need into working software. For my family's restaurant, I built a staff dashboard that lets the owner change the menu without a developer.
+
+## What I bring to an employer
+
+My Week 2 and Week 3 work gave me an honest picture of what I offer an employer. My personal SWOT analysis lists my strengths: I think I use AI better than most people, and I get things done quickly and efficiently. My manager sees the same thing and describes me as very adaptable. And I have more perseverance than most people. These strengths are why my job flew me to Paris to give an AI training. My opportunities are AI as a new technology and the friends and family who can connect me with the right people. AI is also a threat. The fact that AI can replace me kind of scares me. Learning new tools quickly and teaching other people to use them, particularly in my job at Bel, is how I am currently answering that fear.
+
+I can be unorganized: I leave things to the last minute, lose track of tasks and do not always finish what I start. My professional communication also needs work, and when I asked my manager where, she named emails, and perhaps presenting. My SMART goals set out my plan for both. For organization: one task list that I review every Monday, the task I most want to avoid done first each day, and each LE/COOP 2100 assignment started at least seven days before it is due. For communication: a check of every work email I send outside my team for a greeting, a clear request and no typos, with a count each Friday of how many needed a follow-up. After each training, I also plan to ask attendees about my presenting and fix one thing in the next session. No feedback form went out after Paris, so tighter timing is my own call for next time; the attendee question starts at my next session.
+
+My Week 2 assessments also explain how I work best. My learning style is tactile: I learn by doing. At work, that means I learned Microsoft Copilot by using it before I taught it, and I learned Power BI by building my team's report. It is also why my Paris workshop was built around live demos instead of long manuals, and why I learn new tools through side projects like the restaurant website. My communication style is Emotive (32 out of 40), with Supportive close behind (29). The assessment describes the Emotive style as enjoying "a fast paced, enthusiastic environment" and having "a dynamic ability to think quickly", and says Emotives "thrive on involvement with people". I see it when I lead trainings, get colleagues to try new tools, brainstorm quickly with a team and answer live questions. My preferred work environment is remote, with in-person workshops now and then, which is how my co-op works today. The team I thrive in is friendly and supportive, shares one goal, gives me room to teach others and moves fast.
+
+## What I value
+
+For the Values Assessment, I went through all 96 work and lifestyle values, marked the ones that matter most to me, and chose my top ten in priority order: adventurous or risky tasks (#1), creative tasks (#2), a home-based work setting (#3), being very involved in social activities (#4), time to pursue my interests (#5), a competitive environment (#6), working with colleagues as a team (#7), supportive co-workers (#8), job security (#9) and the opportunity to advance within the same organization (#10). Eight are work values, and two, social activities and time for my interests, are lifestyle values.
+
+Following the Values Perspective Reflection, I looked at how I felt about this list, and it surprised me. I see myself as a careful person, yet adventurous and risky tasks came out on top. When I look at my life chart, though, I see that switching into computer science was a risk. Risky tasks mean not knowing whether something is going to work: it may fail, but it could lead to great success. Switching into computer science was a real risk. I had already spent two years at university on other programs, and starting over in a new field meant catching up. I took the risk because I would rather bet on what I love than stay on a path that does not fit.
+
+My second value is creative tasks (#2). Creativity means letting oneself express one's own experience, not following a specific external rubric, but creating one's own vision. The ordering website for my family's Vietnamese restaurant is my example: I built the customer storefront and a private staff dashboard, and I wrote 22 automated end-to-end tests to check that they work. Real customers now order through something I made: the restaurant reports about 50 customers a day ordering through the site.
+
+Where and with whom I work matters to me too. My third value is a home-based work setting (#3). Working from home just means being able to work from home, prioritize my time and be efficient in my own manner. My co-op at Bel is fully remote. The only exceptions are workshops: two days in the Toronto office for one, a week in Paris for another, and a three-day workshop in Montreal in December. Teamwork (#7) and supportive co-workers (#8) are both in my top ten. Teamwork and support mean having people who also wish the best for me, especially in times of need: people I can support and who will support me in all ways possible. My team at Bel is my example of both. My manager reviewed my workshop drafts before Paris, and her feedback afterwards was very positive. She will give me more specific feedback on what to do next.
+
+My two lifestyle values are about life outside work. Being involved in social activities (#4) means being out there, creating connections with people, further discovering ideas and possibilities, and being able to feel more comfortable. At my team's offsite in Paris, I met colleagues from other countries and used my French both at work and around the city. To me, having time for interests (#5) is a way to take my mind away from work specifically and to stretch it with other stimulating things of my own choosing. For me, that is sports and the gym. I keep a regular gym routine, lifting weights on a set schedule, and I also play basketball, volleyball and badminton and go rock climbing.
+
+The rest of my top ten is about drive and the long term. For me, a competitive environment (#6) means being challenged by others' ideas and opinions, taking in other ways of thinking, and finding motivation for self-improvement. When I switched into computer science, I was starting later than most students in the program. I took a computer science course in the summer of 2025, built projects outside class and studied every day, and my second year at York went better than my first. Job security (#9) and advancing within the same organization (#10) go together for me. Job security and advancement mean I can worry less about having to keep my job and more about how I can best do my job and rise within my career. Bel shows me that both are possible. I joined Bel as a learning technology intern, and three months later my job flew me to Paris to lead a training session. Bel's teams in France, the United States and Spain were very impressed, my use cases will become courses, and I have a workshop in Montreal in December, with possibly more to come.
+
+Three values that matter to me are not on the course's list: hard work and perseverance, always learning, and problem-solving. Perseverance matters to me because of my friend's example, and my catch-up in computer science is where I lived it: the summer course, the projects and the daily studying. Always learning and problem-solving are part of the same story, because catching up meant learning new material and working out how to close the gap.
+
+The clearest conflict in my top ten is between two work values, risky tasks (#1) and job security (#9). My answer for now is to take risks early in my career and build security over time. Between my work and lifestyle values, I see more fit than conflict. Working from home (#3) gives me time for my interests (#5), like my gym routine. And the workshops give my remote job a social side (#4): the Toronto office and Paris, with Montreal coming soon, and possibly New York City. These values shape how I work and behave: I bet on what I love, I get things done quickly and efficiently, and I believe hard work gets noticed.
+
+## Two artifacts
+
+I chose two artifacts, one for my story and one for my values.
+
+<figure class="photo">
+<img src="media/gingercuisine-home.jpg" alt="The homepage of gingercuisine.ca, the ordering website I built for my family's restaurant" loading="lazy">
+</figure>
+
+My About Me artifact is the homepage of the ordering website I built for my family's Vietnamese restaurant in Toronto. It comes from where I am from: a Vietnamese family in Toronto. It is the result of a risk I took, switching into computer science. It is a +5 on my life chart.
+
+<figure class="photo">
+<img src="media/paris-eiffel-dusk.jpg" alt="The Eiffel Tower at dusk, photographed during my October 2026 work trip" loading="lazy">
+</figure>
+
+My values artifact is a photo I took of the Eiffel Tower at dusk during the trip where I delivered my Copilot workshop. It represents my top value, adventurous and risky tasks: my job sent me to another country to lead a training session in person, and it went great. It also stands for being very involved in social activities (#4), because I met colleagues from other countries there. It stands for advancing within the same organization (#10), because Bel sent me there three months into my co-op. And it connects my values back to where I am from: the French I started learning at four is the French I used at work in Paris.
 
 ## Outside school and work
 
