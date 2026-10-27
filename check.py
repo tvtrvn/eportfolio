@@ -5,7 +5,7 @@
    never written into this (public) repository.
 2. Every internal link and #anchor resolves.
 3. Every external link answers (LinkedIn blocks bots with 999 - listed for a manual check).
-4. Every page has the full nav and the footer the course manual requires.
+4. Every page has the full nav and the footer the course manual requires, and no placeholder text.
 5. Spelling: words not in the system dictionary are listed for a human read.
 Exits 1 if any of checks 1-4 fail.
 """
@@ -18,7 +18,8 @@ import urllib.request
 
 DOCS = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else pathlib.Path(__file__).parent / "docs")
 PERSONAL = pathlib.Path.home() / "Desktop/WORKSPACE/JobSearch/career_truth/sections/01_personal.md"
-PAGES = ["index.html", "about.html", "why-me.html", "career.html", "goals.html", "reflections.html", "projects.html"]
+PAGES = ["index.html", "about.html", "why-me.html", "career.html", "goals.html", "projects.html", "contact.html"]
+NOT_IN_MENU = {"why-me.html"}  # built and linked from About Me + Home, but left out of the menu
 ALLOWED_WORDS = set("""
 thinh tran eportfolio york lassonde coop le bel groupe canada pho ginger gingercuisine aritzia
 upnxxt riipen codesignal github linkedin netlify vercel mongodb prisma redis postgresql sqlite numpy
@@ -128,8 +129,17 @@ def main():
             if required not in page:
                 failures.append(f"FOOTER: {name} is missing '{required}'")
         for target in PAGES:
-            if target not in c.links:
+            if target not in NOT_IN_MENU and target not in c.links:
                 failures.append(f"NAV: {name} has no link to {target}")
+    for target in NOT_IN_MENU:
+        if not any(target in c.links for name, c in parsed.items() if name != target):
+            failures.append(f"ORPHAN: no page links to {target}")
+
+    # 4b. the course: "Never publish placeholder text"
+    for name, text in corpus.items():
+        for marker in ('class="coming"', "coming this term", "No reflections yet", "[NEED FROM YOU"):
+            if marker.lower() in text.lower():
+                failures.append(f"PLACEHOLDER: '{marker}' in {name}")
 
     # 5. spelling candidates (advisory)
     dictionary = set(pathlib.Path("/usr/share/dict/words").read_text().lower().split())

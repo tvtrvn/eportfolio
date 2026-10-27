@@ -16,14 +16,15 @@ This ePortfolio documents my professional development during my first co-op work
 ## What's inside
 
 <ul class="toc">
-<li><a href="about.html"><span class="toc-title">A — About Me</span><span class="toc-desc">Who I am, what I study, where I'm headed, and life outside work</span></a></li>
+<li><a href="about.html"><span class="toc-title">A — About Me</span><span class="toc-desc">Who I am, my story, what I value, my Why Me video, and life outside work</span></a></li>
 <li><a href="why-me.html"><span class="toc-title">Why Me? (video)</span><span class="toc-desc">My 75-second pitch: who I am, why computer science, and what I build</span></a></li>
 <li><a href="career.html"><span class="toc-title">B — Career: Education, Experience and Resume</span><span class="toc-desc">York University, my co-op term at Groupe Bel Canada, work history, skills, and a PDF resume</span></a></li>
-<li><a href="goals.html"><span class="toc-title">C — Goals and Portfolios</span><span class="toc-desc">Discover Myself: dreams and goals, interests and skills, values and personality, credentials</span></a></li>
-<li><a href="reflections.html"><span class="toc-title">D — Reflections</span><span class="toc-desc">What I'm learning this term, written with the Retell, Relate, Reflect method</span></a></li>
-<li><a href="projects.html"><span class="toc-title">E — Projects</span><span class="toc-desc">Selected software projects, each tagged with the Lassonde competencies it demonstrates</span></a></li>
+<li><a href="goals.html"><span class="toc-title">C — Goals and Portfolios</span><span class="toc-desc">Discover Myself: dreams and goals, interests and skills (my SMART goals and my progress), values and personality, credentials</span></a></li>
+<li><a href="goals.html"><span class="toc-title">D — Reflections</span><span class="toc-desc">Attached to each artifact on the Goals page, written with the Retell, Relate, Reflect method</span></a></li>
+<li><a href="projects.html"><span class="toc-title">E — Projects</span><span class="toc-desc">Selected software projects, each tagged with the undergraduate competencies it demonstrates</span></a></li>
+<li><a href="contact.html"><span class="toc-title">Contact</span><span class="toc-desc">Email, LinkedIn and GitHub</span></a></li>
 </ul>
 
-**How it's organized:** each project or piece of work is an **artifact**; each artifact gets a **reflection** on what it taught me; and related artifacts and reflections are grouped into **collections**, the portfolios under each goal.
+**How it's organized:** each project or piece of work is an **artifact**; the artifacts on the Goals page each get a **reflection** on what they taught me, and each project says why its competency tags fit; related artifacts are grouped into **collections**, the portfolios under each goal.
 
 <p class="status">Built across the Fall 2026 term: started September 2026, final version December 2026.</p>

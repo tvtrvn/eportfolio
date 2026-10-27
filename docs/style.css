@@ -105,6 +105,9 @@ strong { font-weight: 600; }
 }
 .card h3 { margin-top: 0; }
 .card > :last-child { margin-bottom: 0; }
+.artifact { border-top: 1px solid var(--rule); margin-top: 1.25rem; padding-top: 1rem; }
+.artifact h4 { margin: 0 0 0.5rem; }
+.artifact > :last-child { margin-bottom: 0; }
 .links { font-size: 0.95rem; }
 .stack { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); }
 

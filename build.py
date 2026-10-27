@@ -19,15 +19,17 @@ ROOT = pathlib.Path(__file__).parent
 CONTENT = ROOT / "content"
 OUT = ROOT / "docs"
 
-# (file stem, output name) in navigation order
+# (file stem, output name) in navigation order. A page whose header says "menu: no" is built but left out
+# of the menu. content/work-portfolio.md is not listed: it shows Bel work, so it stays unpublished until
+# my supervisor approves it (course rule), then goes in after "goals".
 PAGES = [
     ("index", "index.html"),
     ("about", "about.html"),
     ("why-me", "why-me.html"),
     ("career", "career.html"),
     ("goals", "goals.html"),
-    ("reflections", "reflections.html"),
     ("projects", "projects.html"),
+    ("contact", "contact.html"),
 ]
 
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
@@ -97,6 +99,8 @@ def build():
     for stem, out, meta, body in pages:
         nav_items = []
         for _, o, m, _ in pages:
+            if m.get("menu") == "no":
+                continue
             current = ' aria-current="page"' if o == out else ""
             nav_items.append(f'        <li><a href="{o}"{current}>{m["nav"]}</a></li>')
         nav = "\n".join(nav_items)

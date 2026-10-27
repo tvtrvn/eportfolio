@@ -1,5 +1,6 @@
 title: Why Me?
 nav: Why Me
+menu: no
 eyebrow: A — About Me · Why Me video
 description: Thinh Tran's 75-second Why Me pitch video: who he is, why he switched into computer science, and what he builds.
 ---

@@ -1,11 +1,11 @@
 title: Projects
 nav: Projects
 eyebrow: E — Projects
-description: Selected software projects by Thinh Tran, tagged with the Lassonde undergraduate competencies they demonstrate.
+description: Selected software projects by Thinh Tran, tagged with the undergraduate competencies they demonstrate.
 ---
 # Projects
 
-<p class="lede">Selected work, each tagged with the Lassonde undergraduate competencies it demonstrates. A reflection is added to each project during the term.</p>
+<p class="lede">Selected work, each tagged with the undergraduate competencies it demonstrates.</p>
 
 <div class="card" markdown="1">
 ### AI Workflow System, built on Claude Code
@@ -17,11 +17,9 @@ A personal AI system I designed and direct. Its core is a job-application pipeli
 <p class="stack">Claude Code · custom skills · hooks · scheduled agents · Python</p>
 <p class="links">Private repository, walkthrough available on request.</p>
 
-<ul class="tags"><li>Use of Engineering Tools</li><li>Design</li><li>Life-Long Learning</li></ul>
+<ul class="tags"><li>Critical Thinking and Problem Solving</li><li>Initiative and Entrepreneurship</li><li>Curiosity and Imagination</li></ul>
 
-**Why these tags:** it's built by combining and configuring AI tooling; the fact-check gate is a design decision about how the system should fail; and I keep extending it as the tools change.
-
-<div class="coming" markdown="1">Reflection coming this term.</div>
+**Why these tags:** the fact-check gate is a design decision about how the system should fail; I started it and built it on my own; and I keep extending it as the tools change.
 </div>
 
 <div class="card" markdown="1">
@@ -32,11 +30,9 @@ A production ordering platform for a Toronto restaurant: a customer storefront a
 <p class="stack">Next.js · React · TypeScript · MongoDB · Prisma · Redis · Vercel · Playwright</p>
 <p class="links"><a href="https://gingercuisine.ca">Live site</a> · <a href="https://github.com/tvtrvn/gingercuisine-app">Code on GitHub</a></p>
 
-<ul class="tags"><li>Design</li><li>Communication Skills</li><li>Professionalism</li></ul>
+<ul class="tags"><li>Effective Oral and Written Communication</li><li>Initiative and Entrepreneurship</li><li>Critical Thinking and Problem Solving</li></ul>
 
-**Why these tags:** I designed the whole system; I turned a non-technical owner's needs into a written requirements document; and it's real software that a business depends on.
-
-<div class="coming" markdown="1">Reflection coming this term.</div>
+**Why these tags:** I turned a non-technical owner's needs into a written requirements document; it's real software that a business depends on, built and maintained by me as the sole developer; and I designed the whole system.
 </div>
 
 <div class="card" markdown="1">
@@ -47,11 +43,9 @@ A full-stack analytics platform for four simulated investment portfolios. A NumP
 <p class="stack">React · TypeScript · Redux Toolkit · Python · FastAPI · PostgreSQL · NumPy</p>
 <p class="links"><a href="https://github.com/tvtrvn/portfolio-analytics-dashboard">Code on GitHub</a></p>
 
-<ul class="tags"><li>Knowledge Base for Engineering</li><li>Problem Analysis</li><li>Use of Engineering Tools</li></ul>
+<ul class="tags"><li>Accessing and Analyzing Information</li><li>Critical Thinking and Problem Solving</li></ul>
 
 **Why these tags:** every metric is implemented from its mathematical definition rather than a library call, and the data model came from working out which questions the dashboard has to answer.
-
-<div class="coming" markdown="1">Reflection coming this term.</div>
 </div>
 
 <div class="card" markdown="1">
@@ -62,13 +56,8 @@ A simulator for "what if I had invested" questions: lump-sum and dollar-cost-ave
 <p class="stack">React · TypeScript · Python · FastAPI · PostgreSQL · Docker · GitHub Actions</p>
 <p class="links"><a href="https://historical-trade-sim.vercel.app">Live site</a> · <a href="https://github.com/tvtrvn/historical-trade-sim">Code on GitHub</a></p>
 
-<ul class="tags"><li>Design</li><li>Investigation</li><li>Use of Engineering Tools</li></ul>
+<ul class="tags"><li>Critical Thinking and Problem Solving</li><li>Accessing and Analyzing Information</li></ul>
 
 **Why these tags:** the fallback chain was designed around how real data providers fail, and the test suite is how I prove the numbers are right.
-
-<div class="coming" markdown="1">Reflection coming this term.</div>
 </div>
 
-<div class="coming" markdown="1">
-**Course projects:** group coursework, such as my EECS 3311 Software Design project, will be added only with my teammates' written permission.
-</div>
