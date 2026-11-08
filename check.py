@@ -18,7 +18,7 @@ import urllib.request
 
 DOCS = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else pathlib.Path(__file__).parent / "docs")
 PERSONAL = pathlib.Path.home() / "Desktop/WORKSPACE/JobSearch/career_truth/sections/01_personal.md"
-PAGES = ["index.html", "about.html", "why-me.html", "career.html", "goals.html", "projects.html", "contact.html"]
+PAGES = ["index.html", "about.html", "why-me.html", "career.html", "goals.html", "work-portfolio.html", "projects.html", "contact.html"]
 NOT_IN_MENU = {"why-me.html"}  # built and linked from About Me + Home, but left out of the menu
 ALLOWED_WORDS = set("""
 thinh tran eportfolio york lassonde coop le bel groupe canada pho ginger gingercuisine aritzia

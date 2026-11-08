@@ -20,6 +20,7 @@ This ePortfolio documents my professional development during my first co-op work
 <li><a href="why-me.html"><span class="toc-title">Why Me? (video)</span><span class="toc-desc">My 75-second pitch: who I am, why computer science, and what I build</span></a></li>
 <li><a href="career.html"><span class="toc-title">B — Career: Education, Experience and Resume</span><span class="toc-desc">York University, my co-op term at Groupe Bel Canada, work history, skills, and a PDF resume</span></a></li>
 <li><a href="goals.html"><span class="toc-title">C — Goals and Portfolios</span><span class="toc-desc">Discover Myself: dreams and goals, interests and skills (my SMART goals and my progress), values and personality, credentials</span></a></li>
+<li><a href="work-portfolio.html"><span class="toc-title">Work Portfolio</span><span class="toc-desc">My co-op role at Groupe Bel Canada and my Paris Copilot workshop, shared with my supervisor's approval</span></a></li>
 <li><a href="goals.html"><span class="toc-title">D — Reflections</span><span class="toc-desc">Attached to each artifact on the Goals page, written with the Retell, Relate, Reflect method</span></a></li>
 <li><a href="projects.html"><span class="toc-title">E — Projects</span><span class="toc-desc">Selected software projects, each tagged with the undergraduate competencies it demonstrates</span></a></li>
 <li><a href="contact.html"><span class="toc-title">Contact</span><span class="toc-desc">Email, LinkedIn and GitHub</span></a></li>

@@ -20,14 +20,14 @@ CONTENT = ROOT / "content"
 OUT = ROOT / "docs"
 
 # (file stem, output name) in navigation order. A page whose header says "menu: no" is built but left out
-# of the menu. content/work-portfolio.md is not listed: it shows Bel work, so it stays unpublished until
-# my supervisor approves it (course rule), then goes in after "goals".
+# of the menu. work-portfolio shows Bel work in general terms; published after my supervisor approved it (course rule).
 PAGES = [
     ("index", "index.html"),
     ("about", "about.html"),
     ("why-me", "why-me.html"),
     ("career", "career.html"),
     ("goals", "goals.html"),
+    ("work-portfolio", "work-portfolio.html"),
     ("projects", "projects.html"),
     ("contact", "contact.html"),
 ]
