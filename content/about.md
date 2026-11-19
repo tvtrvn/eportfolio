@@ -7,7 +7,7 @@ description: About Thinh Tran: Computer Science student at York University, co-o
 
 <p class="lede">Computer Science student, co-op intern, and builder, working toward a career in software and AI.</p>
 
-My name is Thinh Tran. I am a Computer Science (Honours) co-op student at York University's Lassonde School of Engineering, graduating in 2028, and I am on my first co-op term as a Learning Technology and AI Enablement Intern at Groupe Bel Canada. I want to become a software engineer working in AI. The different mix of experiences and background is what makes me unique. I speak English, French and Vietnamese. I switched into Computer Science from media, and previously nursing, so I have a mix of experience in editing videos and coding. I also love building AI tools for myself. Outside school and work, I lift weights, play basketball, volleyball and badminton, rock climb, and love to cook.
+My name is Thinh Tran. I am a Computer Science (Honours) co-op student at York University's Lassonde School of Engineering, graduating in 2028, and I am on my first co-op term as a Learning Technology and AI Enablement Intern at Groupe Bel Canada. I want to become a software engineer working in AI. I switched into Computer Science from media, and previously nursing, so I have a mix of experience in editing videos and coding. I also love building AI tools for myself.
 
 ## At a glance
 
@@ -34,7 +34,11 @@ I started university in nursing at Western University in 2021. It wasn't the rig
 
 Starting late meant catching up, so I took a summer course, built projects outside class and studied every day, the way I had watched my friend do it. My grades went up, and in 2026 I shipped the online ordering website for my family's Vietnamese restaurant, which real customers use every day.
 
-That summer, I started my first co-op term at Groupe Bel Canada. It was not the pure software role I had aimed for, but it showed me that I am efficient and adaptable. In October 2026, my job flew me to Paris to deliver a Microsoft Copilot workshop to the team in person, and it went as well as I could have ever imagined. Next, I am looking for a Summer 2027 co-op in software engineering, the career I am working toward. My story keeps teaching me the same two things: it is OK to take risks and start over, and hard work gets noticed.
+That summer, I started my first co-op term at Groupe Bel Canada. It was not the pure software role I had aimed for, but it showed me that I am efficient and adaptable. In October 2026, my job flew me to Paris to deliver a Microsoft Copilot workshop to the team in person, and it went as well as I could have ever imagined. One moment from that day: a sales director in the room had been making his weekly PowerPoints by hand from a data dump, and they came out too different every time or not accurate. I showed how to make an agent with instructions to automate that workflow, and a week after the training he told me it was saving him around 2 hours a week. It was the agent creation and prompting techniques that helped him.
+
+Switching into computer science and getting an internship that I truly found enjoyable taught me the most about betting on what I love. I could imagine myself getting into a nursing placement had I not switched, and I would be doing things that I could never say I truly enjoy. But being in this position right now, I can say I truly enjoy computer science.
+
+Next, I am looking for a Summer 2027 co-op in software engineering, the career I am working toward. My story keeps teaching me the same two things: it is OK to take risks and start over, and hard work gets noticed.
 
 ## My Why Me video
 
@@ -45,6 +49,10 @@ That summer, I started my first co-op term at Groupe Bel Canada. It was not the 
 </video>
 <figcaption>Voice and clips recorded in Paris during a work trip, October 2026. Structured with the Pixar Pitch from LE/COOP 2100, Module 4. More on the <a href="why-me.html">Why Me page</a>.</figcaption>
 </figure>
+
+<ul class="tags"><li>Effective Oral and Written Communication</li><li>Curiosity and Imagination</li><li>Agility and Adaptability</li></ul>
+
+**Why these tags:** I told my "why" in about 75 seconds in my own voice, my love of creating and exploring pushed me toward computer science, and I started over in a new field.
 
 ## Where I come from, and how I got here
 
@@ -92,11 +100,19 @@ I chose two artifacts, one for my story and one for my values.
 
 My About Me artifact is the homepage of the ordering website I built for my family's Vietnamese restaurant in Toronto. It comes from where I am from: a Vietnamese family in Toronto. It is the result of a risk I took, switching into computer science. It is a +5 on my life chart.
 
+<ul class="tags"><li>Initiative and Entrepreneurship</li><li>Curiosity and Imagination</li><li>Accessing and Analyzing Information</li></ul>
+
+**Why these tags:** I built it on my own for my family's business, building it is where I get to be creative, and I turned the owner's needs into a working website.
+
 <figure class="photo">
 <img src="media/paris-eiffel-dusk.jpg" alt="The Eiffel Tower at dusk, photographed during my October 2026 work trip" loading="lazy">
 </figure>
 
 My values artifact is a photo I took of the Eiffel Tower at dusk during the trip where I delivered my Copilot workshop. It represents my top value, adventurous and risky tasks: my job sent me to another country to lead a training session in person, and it went great. It also stands for being very involved in social activities (#4), because I met colleagues from other countries there. It stands for advancing within the same organization (#10), because Bel sent me there three months into my co-op. And it connects my values back to where I am from: the French I started learning at four is the French I used at work in Paris.
+
+<ul class="tags"><li>Collaboration Across Networks and Leading With Influence</li><li>Initiative and Entrepreneurship</li></ul>
+
+**Why these tags:** at the offsite I worked with colleagues from other countries, and a sales director in the room changed how he works after my workshop; and I took the risk of leading it in person, in another country.
 
 ## Outside school and work
 

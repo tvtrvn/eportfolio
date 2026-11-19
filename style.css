@@ -97,6 +97,7 @@ strong { font-weight: 600; }
 .entry-org { color: var(--muted); margin: 0.1rem 0 0.5rem; }
 .entry ul { padding-left: 1.2rem; }
 .accomplishment { background: var(--accent-soft); border-radius: 8px; padding: 0.55rem 0.8rem; font-size: 0.97rem; }
+.skills-used { font-size: 0.97rem; }
 
 /* ---------- cards (projects, portfolios) ---------- */
 .card {
